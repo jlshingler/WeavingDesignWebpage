@@ -1,0 +1,35 @@
+.display-section {
+	display: block;
+	width: 70%;
+	padding-left: 15%;
+}
+
+.base, .grid {
+	display: grid;
+	padding-bottom: 10px;
+}
+
+.grid-item, .base-item {
+	border: solid 1px black;
+}
+
+.base-item {
+	height: 25px;
+}
+
+	.base-item:hover {
+		border: solid 2px black;
+		height: 23px;
+	}
+
+.grid-item {
+	height: 40px;
+}
+
+/*.grid-item:nth-child(odd) {
+    border-right: none;
+}
+
+.grid-item:nth-child(even) {
+    border-left: none;
+}*/
